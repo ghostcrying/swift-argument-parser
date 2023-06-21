@@ -48,7 +48,6 @@
 				709D60838E20411C89C20ECA /* Pods-Example_TestHelpers_iOS.debug.xcconfig */,
 				CCE168125A0CF02B576A0B83 /* Pods-Example_TestHelpers_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -370,7 +369,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.then.argument.parser.test.Example-TestHelpers-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.then.argument.parser.test.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -399,7 +398,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.then.argument.parser.test.Example-TestHelpers-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.then.argument.parser.test.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

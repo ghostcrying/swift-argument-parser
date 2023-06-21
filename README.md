@@ -147,7 +147,7 @@ pod 'ArgumentParser', :git => 'https://github.com/ghostcrying/swift-argument-par
 #### Carthage
 
 ```
-git "https://github.com/ghostcrying/swift-argument-parser.git" "master"
+git "https://github.com/ghostcrying/swift-argument-parser.git"
 
 # carthage build --no-skip-current --platform iOS --use-xcframeworks
 ```

@@ -48,7 +48,6 @@
 				8FB71BF5977627FF6A2AF750 /* Pods-Example_Info_iOS.debug.xcconfig */,
 				E9246FA72FC0CA66652430DD /* Pods-Example_Info_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -370,7 +369,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.then.argument.parser.Example-Info-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.then.argument.parser.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -399,7 +398,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.then.argument.parser.Example-Info-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.then.argument.parser.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
