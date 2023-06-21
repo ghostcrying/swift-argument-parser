@@ -110,7 +110,11 @@ Accordingly, from time to time,
 we expect that new versions of this package will require clients to upgrade to a more recent Swift toolchain release.
 Requiring a new Swift release will only require a minor version bump.
 
+
+
 ## Adding `ArgumentParser` as a Dependency
+
+#### SPM
 
 To use the `ArgumentParser` library in a SwiftPM project, 
 add it to the dependencies for your package and your command-line executable target:
@@ -132,12 +136,38 @@ let package = Package(
 )
 ```
 
+#### Cocoapods
+
+```
+pod 'ArgumentParser', :git => 'https://github.com/ghostcrying/swift-argument-parser.git', :tag => '0.0.1'
+
+# pod install
+```
+
+#### Carthage
+
+```
+git "https://github.com/ghostcrying/swift-argument-parser.git" "master"
+
+# carthage build --no-skip-current --platform iOS --use-xcframeworks
+```
+
+Add `ArgumentParser.xcframework` `ArgumentParserToolInfo.xcframework` to your project.
+
+
+
+## Note
+
+**If you only use SPM for importing, it is recommended to use Apple's SPM. For the currently forked project, it is more recommended to use CocoaPods and Carthage.**
+
+
+
 ### Supported Versions
 
 The most recent versions of swift-argument-parser support Swift 5.5 and newer. The minimum Swift version supported by swift-argument-parser releases are detailed below:
 
 swift-argument-parser | Minimum Swift Version
 ----------------------|----------------------
-`0.0.1 ..< 0.2.0`     | 5.1
-`0.2.0 ..< 1.1.0`     | 5.2
-`1.1.0 ...`           | 5.5
+|     |  
+|     |  
+`0.0.1 ...`           | 5.5

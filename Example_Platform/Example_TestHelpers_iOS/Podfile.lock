@@ -1,0 +1,28 @@
+PODS:
+  - ArgumentParser (0.0.1):
+    - ArgumentParserToolInfo
+  - ArgumentParserTestHelpers (0.0.1):
+    - ArgumentParser
+  - ArgumentParserToolInfo (0.0.1)
+
+DEPENDENCIES:
+  - ArgumentParser (from `../../`)
+  - ArgumentParserTestHelpers (from `../../`)
+  - ArgumentParserToolInfo (from `../../`)
+
+EXTERNAL SOURCES:
+  ArgumentParser:
+    :path: "../../"
+  ArgumentParserTestHelpers:
+    :path: "../../"
+  ArgumentParserToolInfo:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  ArgumentParser: 1c740c36a46bb301d031f8b8cf1797b4db5f7395
+  ArgumentParserTestHelpers: 00c1ffbee17fcc02057f867499338819fda6741b
+  ArgumentParserToolInfo: ae50d9676e7f52ebea322f951b87fe25d5cefb68
+
+PODFILE CHECKSUM: 3ce7bb399eaaaf1322386361ae80aa951b84bef8
+
+COCOAPODS: 1.12.0
